@@ -35,7 +35,7 @@ test(t => {
 
 testChanged('CommonJs requires',
 `
-const test = require(\'tape\');
+const test = require('tape');
 const x = 1;
 `,
 `
@@ -46,7 +46,7 @@ const x = 1;
 
 testChanged('ES2015 imports',
 `
-import test from \'tape\';
+import test from 'tape';
 const x = 1;
 `,
 `
