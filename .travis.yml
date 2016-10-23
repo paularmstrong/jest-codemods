@@ -12,4 +12,4 @@ before_install:
 install:
   - yarn
 script:
-  - npm run prepublish
+  - echo 'Done' # 'npm run prepublish is done by installer'
